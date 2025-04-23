@@ -17,8 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from website.views import vmg
+from chartjs.views import chart
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('vmg/', vmg, ),
+    path('chart/', chart, ),
 ]
