@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from website.views import mission
+from website.views import vmg
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', mission, )
+    path('vmg/', vmg, )
 ]
