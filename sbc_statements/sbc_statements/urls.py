@@ -20,5 +20,5 @@ from website.views import vmg
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vmg/', vmg, )
+    path('vmg/', vmg, ),
 ]
